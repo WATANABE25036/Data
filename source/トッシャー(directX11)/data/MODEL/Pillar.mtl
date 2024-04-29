@@ -1,0 +1,24 @@
+newmtl Ceiling:DeadEnd:Pillar012:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd PillarUV3.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl WallEnd_0001:Aisle_0001:blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd AisleUV.png
+Ni 1.00
+Ks 0.50 0.50 0.50
+newmtl blinn1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd PillarUV3.png
+Ni 1.00
+Ks 0.50 0.50 0.50
