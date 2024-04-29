@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{4e17d833-2d2c-4313-b5f6-6cfd970dc3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Enemy">
+      <UniqueIdentifier>{6cfdca63-4729-4dd2-9f06-f11611fc597d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Boss">
+      <UniqueIdentifier>{6fa12a3b-e07b-466a-aa99-540f5ab58f76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{9dba50bb-fb87-4a8b-8c91-86dec9106de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Entity">
+      <UniqueIdentifier>{7ccd69dd-36bb-48a6-8a2b-4c9329979d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\UI">
+      <UniqueIdentifier>{ff0e9117-90e9-4f25-afe5-100807483a95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Item">
+      <UniqueIdentifier>{dadb0eb1-638b-4afc-9106-d2b1d8c4e76b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Attack">
+      <UniqueIdentifier>{ce755334-a046-4b86-9fab-30cdd58fae24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{7779ae4d-2ee5-4d85-af29-fc506a5f9672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{9681a86c-62a8-4fe8-9c0d-ebb06ae6dace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Effect">
+      <UniqueIdentifier>{b1cf419d-c029-41ac-80d3-3a469f5dca68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\StageEntity">
+      <UniqueIdentifier>{01039643-909c-4f44-868e-ec91b88c4cb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="directWrite.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="title_background.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="back_ground.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="gun.cpp">
+      <Filter>ソース ファイル\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="hit_spark.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="icon.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>ソース ファイル\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="text_create.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="textDW.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\MapObject\Tree.cpp">
+      <Filter>ソース ファイル\StageEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="dead.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="game_option.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cursor.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="minimap.cpp">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerDamaged.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerDashAttack.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerDead.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerDeadEffect.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerJumpAttack.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerTripleFirst.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerTripleSecond.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerTripleThird.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\TreeAlive.cpp">
+      <Filter>ソース ファイル\StageEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="range_select.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="title_logo.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\Enemy\Enemy.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\Enemy\EnemybulletSpawn.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\EnemyDead.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\Enemy\PepperEnemy.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\Enemy\KumoBoss.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossAttack.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossAttacked.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossBackAttacked.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossFallDown.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossGetUp.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossIdle.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossJumpAttack.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossSleep.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\KumoBossWeaponAttack.cpp">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\Player\player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerAttack.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerIdle.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerJump.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerMove.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\Enemy\SpiderBullet.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\FoundPlayer.cpp">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\Idle.cpp">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\Player\paperGuardian.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PGuardianIdle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PGuardianFoundPlayer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PGuardianAttack.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\CastleIntact.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\MapObject\NekoCastle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerSpecial.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PlayerLongDashAttack.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\TreeDead.cpp">
+      <Filter>ソース ファイル\StageEntity</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PaperEnemyDead.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PeppeAttack.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PepperFoundPlayer.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\PepperIdle.cpp">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="HpBar.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Alpaca.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\EnemyCastleFallen.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\EnemyCastleIntact.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm\State\NekoCastleFallen.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEntity\MapObject\EnemyCastle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="result_background.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="title_background.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\MapObject\Tree.h">
+      <Filter>ソース ファイル\StageEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Enemy\Enemy.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Enemy\EnemyBullet.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Enemy\EnemybulletSpawn.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\EnemyDead.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Enemy\EnemySpawn.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Enemy\PepperEnemy.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Enemy\KumoBoss.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossAttack.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossAttacked.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossBackAttacked.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossFallDown.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossGetUp.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossIdle.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossJumpAttack.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossSleep.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\KumoBossWeaponAttack.h">
+      <Filter>ソース ファイル\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="cursor.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Player\player.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerAttack.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerIdle.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerJump.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerMove.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Enemy\SpiderBullet.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\FoundPlayer.h">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\Idle.h">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State.h">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\StateMachine.h">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="back_ground.h">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="dead.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ソース ファイル\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="gun.h">
+      <Filter>ソース ファイル\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="hit_spark.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="icon.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="directWrite.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>ソース ファイル\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>ソース ファイル\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="text_create.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="textDW.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="minimap.h">
+      <Filter>ソース ファイル\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="game_option.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerDamaged.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerDashAttack.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerDead.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerDeadEffect.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerJumpAttack.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerTripleFirst.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerTripleSecond.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerTripleThird.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\TreeAlive.h">
+      <Filter>ソース ファイル\StageEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="range_select.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="title_logo.h">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\Player\paperGuardian.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PGuardianIdle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PGuardianFoundPlayer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PGuardianAttack.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\CastleIntact.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\MapObject\NekoCastle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerSpecial.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\EntityManager.h">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\EntityBase.h">
+      <Filter>ソース ファイル\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PlayerLongDashAttack.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\TreeDead.h">
+      <Filter>ソース ファイル\StageEntity</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PaperEnemyDead.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PeppeAttack.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PepperFoundPlayer.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\PepperIdle.h">
+      <Filter>ソース ファイル\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="HpBar.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Alpaca.h">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\EnemyCastleFallen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\EnemyCastleIntact.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Fsm\State\NekoCastleFallen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity\MapObject\EnemyCastle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="result_background.h">
+      <Filter>ソース ファイル\System</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
